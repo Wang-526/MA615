@@ -3,7 +3,7 @@ library(tidyverse)
 library(seasonal)
 library(fpp2)
 library(stringr)
-
+library(corrplot)
 #Step1: Import buoy data and tidy data
 #In order to read txt file automatically
 # make URLs
@@ -71,7 +71,7 @@ plot(dc2)
 
 #Method 2
 model1 <- lm(ATMP~time(ATMP))
-summary(mode1)
+summary(model1)
 ggplot(data=ATMP, aes(x=time(ATMP), y=ATMP)) + 
   geom_point() + 
   stat_smooth(method="lm", formula=y ~ x, se=TRUE)
