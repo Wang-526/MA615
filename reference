@@ -1,0 +1,9 @@
+## In my work, I did not refer to many paper. Most of my code is based on the book "Time Series Analysis with Applications in R".
+##At the same time, I used some packages in R, they are:
+
+lubridate
+tidyverse
+seasonal
+fpp2
+stringr
+corrplot
