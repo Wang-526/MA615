@@ -1,4 +1,4 @@
-### MA615
+### MA615 Buoy
 
 This is my first project in the MA615 class at Boston University, Buoy project.
 
